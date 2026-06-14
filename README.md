@@ -4,11 +4,11 @@
 
 Smart Geolocation-Based Attendance & Verification Platform
 
-🌐 **Live Demo:** https://mvkexh.github.io/saveetha-geoproof.io/
+**Live Demo:** https://mvkexh.github.io/saveetha-geoproof.io/
 
 </div>
 
-![GeoProof Banner](https://mvkexh.github.io/saveetha-geoproof.io/preview.png)
+![GeoProof Banner](https://mvkexh.github.io/saveetha-geoproof.io/LOGO.jpeg)
 
 ## About
 
