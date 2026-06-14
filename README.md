@@ -1,47 +1,123 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# GeoProof Saveetha
+
+Smart Geolocation-Based Attendance & Verification Platform
+
+🌐 **Live Demo:** https://mvkexh.github.io/saveetha-geoproof.io/
+
 </div>
 
-# Run and deploy your AI Studio app
+![GeoProof Banner](https://mvkexh.github.io/saveetha-geoproof.io/preview.png)
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/1ce83aaa-cfb9-46be-bc0c-6833a5bcf830
+GeoProof Saveetha is a web-based geolocation attendance and verification system developed for **SIMATS (Saveetha Institute of Medical and Technical Sciences)**.
+
+## Features
+
+* GPS Location Verification
+* Geofencing Validation
+* Attendance Tracking
+* Student Management
+* Faculty Management
+* Admin Dashboard
+* Analytics & Reports
+* Secure Authentication
+* Responsive Web Design
+* 100+ Automated Test Cases
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+* REST APIs
+
+### Database
+
+* MongoDB
+
+### Testing
+
+* Selenium WebDriver
+* Page Object Model (POM)
+* Excel Report Generation
+* HTML Dashboard Reports
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+## Build
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm run build
+```
 
-## Automated Testing Suite (100+ Test Cases)
+## Automated Testing
 
-GeoProof includes a comprehensive Selenium testing suite containing over **100+ E2E test cases** to validate all platform functions, security features, performance metrics, and responsive UI components.
+Run Selenium Tests:
 
-### Test Catalog
-For a detailed list of all 110 categories test cases and 105 POM modular test cases, please view the [TESTCASES.md](TESTCASES.md) document.
+```bash
+npm run test:selenium
+```
 
-### Running Tests Locally
-To run the automated tests on your machine, first ensure Chrome is installed, start the local server, and execute either of the following commands:
+Run POM Tests:
 
-* **Page Object Model (POM) Module Tests** (105 cases):
-  ```bash
-  npm run test:pom
-  ```
-* **Category-based Tests** (110 cases):
-  ```bash
-  npm run test:selenium
-  ```
+```bash
+npm run test:pom
+```
 
-### Test Analysis Reports
-When the tests execute, they automatically generate Excel analysis spreadsheets and interactive HTML dashboards. You can find them in the local folder at:
-- `test-reports/test-analysis-report.xlsx` (POM E2E Test Results)
-- `test-reports/test-report.html` (POM Interactive HTML Dashboard)
-- `test-reports/test-analysis-report-categories.xlsx` (Category Test Results)
-- `test-reports/test-report-categories.html` (Category Interactive HTML Dashboard)
+## Test Reports
 
+```text
+test-reports/test-analysis-report.xlsx
+test-reports/test-report.html
+test-reports/test-analysis-report-categories.xlsx
+test-reports/test-report-categories.html
+```
+
+## Project Structure
+
+```text
+GeoProof-Saveetha/
+├── src/
+├── public/
+├── backend/
+├── tests/
+├── test-reports/
+├── package.json
+└── README.md
+```
+
+## Deployment
+
+### GitHub Pages
+
+```bash
+npm run deploy
+```
+
+### Vercel
+
+```bash
+vercel --prod
+```
+
+## Institution
+
+**SIMATS (Saveetha Institute of Medical and Technical Sciences)**
+
+GeoProof Saveetha — Secure, Scalable & Smart Geolocation Verification Platform.
