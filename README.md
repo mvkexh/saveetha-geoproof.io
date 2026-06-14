@@ -8,7 +8,7 @@ Smart Geolocation-Based Attendance & Verification Platform
 
 </div>
 
-![GeoProof Banner](https://mvkexh.github.io/saveetha-geoproof.io/LOGO.jpeg)
+![GeoProof Banner](https://mvkexh.github.io/saveetha-geoproof.io/geoproof_logo_1781373094570.jpg)
 
 ## About
 
